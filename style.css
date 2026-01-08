@@ -1,0 +1,19 @@
+body
+{
+    background-color: black;
+}
+
+h1
+{
+    color: aliceblue;
+}
+
+#profile-name
+{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 50px;
+}
+
