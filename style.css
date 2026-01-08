@@ -1,4 +1,4 @@
-#profile-name {animation: fadeIn 2s;}
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
 
 @keyframes fadeIn 
 {
@@ -6,9 +6,16 @@
     100% {opacity: 100%;}
 }
 
+@keyframes colorfulText
+{
+    0%{ color: aliceblue;}
+    100%{ color: rgba(77, 43, 247, 0.483);}
+}
+
 body
 {
-    background-color: black;
+    background-color: #1b1a2b;
+    font-family: "Atkinson Hyperlegible Mono";
 }
 
 h1
@@ -16,9 +23,14 @@ h1
     color: aliceblue;
 }
 
+#name
+{
+    animation: colorfulText 2s infinite alternate;
+}
+
 #profile-name
 {
-    animation: fadeIn 2s;
+    animation: fadeIn 3s;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);

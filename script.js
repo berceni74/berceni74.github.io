@@ -12,7 +12,7 @@ colorBtn.addEventListener("click", () =>
     }
     else
     {
-        body.style.backgroundColor = "black";
+        body.style.backgroundColor = "#1b1a2b";
         colorBtn.textContent = "Light mode";
         h1.style.color = "white";
     }
